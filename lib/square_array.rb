@@ -13,7 +13,7 @@ end
 
 def square_array(array)
   b = []
-  array.length.times do |index|
+  array.size.times do |index|
     b << (array[index])**2
   end
   b
